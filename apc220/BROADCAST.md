@@ -37,7 +37,7 @@ void setup() {
 
 void loop() {
   // Send something for the world to see
-  Serial.println('Hello, world!');
+  Serial.println("Hello, world!");
   delay(1000);
 }
 ```
@@ -132,7 +132,7 @@ And at this point, our `setup()` is complete.
 If you're following along well and saw how we set up `apc220` in the same way as `Serial` in the `setup()` function, it will not surprise you that in order to write the same thing to the radio as `Serial` will be:
 
 ```c class:"lineNo"
-  apc220.println('Hello, world!');
+  apc220.println("Hello, world!");
 ```
 
 ## Arduino Program, Completed
